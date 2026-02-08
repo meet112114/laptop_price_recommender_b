@@ -191,9 +191,9 @@ from flask_cors import CORS
 CORS(app)
 
 # Load the models
-preprocessor = pickle.load(open('../models/preprocessor','rb'))
-cat_en = pickle.load(open('../models/cat_en','rb'))
-model = pickle.load(open('../models/model','rb'))
+preprocessor = pickle.load(open('./models/preprocessor','rb'))
+cat_en = pickle.load(open('./models/cat_en','rb'))
+model = pickle.load(open('./models/model','rb'))
 
 
 
